@@ -145,6 +145,11 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+		//附加元件
+		'Laracasts\Generators\GeneratorsServiceProvider',
+		'Gvb\Whoops\ServiceProvider',
+		'Barryvdh\Debugbar\ServiceProvider',
+		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider'
 	],
 
 	/*
